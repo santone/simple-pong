@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<configuration>
+    <reportUrl>https://dummyUrl</reportUrl>
+    <command type="icmp_ping">
+        <pingCommand>ping -n 5 HOST</pingCommand>
+        <delayInSec>2</delayInSec>
+    </command>
+    <command type="trace">
+        <traceCommand>tracert HOST</traceCommand>
+        <delayInSec>3</delayInSec>
+    </command>
+    <command type="tcp_ping">
+        <delayInSec>5</delayInSec>
+        <timeoutInSec>5</timeoutInSec>
+    </command>
+</configuration>
