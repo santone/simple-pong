@@ -19,7 +19,7 @@
     <logback.version>1.2.3</logback.version>
     <junit.version>4.11</junit.version>
     <lombok.version>1.18.12</lombok.version>
-    <jackson.version>2.9.9.3</jackson.version>
+    <jackson.version>2.9.10.8</jackson.version>
     <java.version>11</java.version>
     <mockito.version>2.1.0</mockito.version>
   </properties>
